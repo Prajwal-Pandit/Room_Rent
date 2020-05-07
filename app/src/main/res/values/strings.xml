@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Room_Rent</string>
+    <string name="House_Owner">House Owner</string>
+    <string name="tenant">Tenant</string>
+    <string name="rent">Rent</string>
+    <string name="register_here">Register Here</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="logo">Logo</string>
+    <string name="Logo">TODO</string>
+    <string name="_1_bhk">1 BHK</string>
+    <string name="_2_bhk">2 BHk</string>
+    <string name="_3_bhk">3 BHK</string>
+    <string name="_4_bhk">4 BHK</string>
+    <string name="a_house">A House</string>
+    <string name="what_do_you_want_to_rent">What do you want to rent?</string>
+    <string name="upload">Upload</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="phone_no">Phone no.</string>
+    <string name="verify">Verify</string>
+    <string name="otp">OTP</string>
+</resources>

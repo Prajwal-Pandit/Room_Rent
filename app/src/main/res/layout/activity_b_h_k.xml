@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".BHK">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="268dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/what_do_you_want_to_rent"
+        android:textAlignment="center"
+        android:textColor="#001067"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="295dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="55dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/_1_bhk"
+        android:textColor="#001067"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/_2_bhk"
+        android:textColor="#001067"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/_3_bhk"
+        android:textColor="#001067"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/_4_bhk"
+        android:textColor="#001067"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/a_house"
+        android:textColor="#001067"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "578459235714",
+    "firebase_url": "https://rent-4968a.firebaseio.com",
+    "project_id": "rent-4968a",
+    "storage_bucket": "rent-4968a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578459235714:android:26ae3a1a3565dad6a88b9b",
+        "android_client_info": {
+          "package_name": "com.example.room_rent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578459235714-escq0qa65glm9ehfqnnb1ed6qco73812.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.room_rent",
+            "certificate_hash": "a3c31dc655f2d018a32ed09e7cfbe266af48fb46"
+          }
+        },
+        {
+          "client_id": "578459235714-pa1uedt8sls54ssh0gma00vclq1kc4jh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX4L9JCMzVY3xmD-0OWvQn7UkMUh50GlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578459235714-pa1uedt8sls54ssh0gma00vclq1kc4jh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
